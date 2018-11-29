@@ -5,6 +5,7 @@
 #
 
 set -e
+set -x
 
 LSB_RELEASE="/usr/bin/lsb_release"
 ERROR=1
