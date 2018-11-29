@@ -184,7 +184,7 @@ EOF
     fi
     info "ATTENTION: For log files see /var/log/yahm"
     progress "\n\tInstalling LXC container (can take some time)"
-    /opt/YAHM/bin/yahm-lxc -v -b=2.31.25 install
+    /opt/YAHM/bin/yahm-lxc -v -b 2.31.25 install
     info "\tYAHM LXC container was installed successfully\n"
 
     progress "\tCreating Bridge for networking"
